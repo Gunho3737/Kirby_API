@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LV_0_OS">
+      <UniqueIdentifier>{b609040a-b121-416c-95f7-8008295798d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LV_2_Object">
+      <UniqueIdentifier>{a075d137-09c7-444e-a3c4-1a323b84f0ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GH_GameEngineWindow.h">
+      <Filter>LV_0_OS</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_Actor.h">
+      <Filter>LV_2_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_Level.h">
+      <Filter>LV_2_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_LevelManager.h">
+      <Filter>LV_2_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_GameEngineImage.h">
+      <Filter>LV_0_OS</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_ResourcesManager.h">
+      <Filter>LV_0_OS</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_Renderer.h">
+      <Filter>LV_2_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_GameEngineInput.h">
+      <Filter>LV_0_OS</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineEnum.h">
+      <Filter>LV_0_OS</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_GameEngineCollision.h">
+      <Filter>LV_2_Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GH_GameEngineWindow.cpp">
+      <Filter>LV_0_OS</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_Actor.cpp">
+      <Filter>LV_2_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_Level.cpp">
+      <Filter>LV_2_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_LevelManager.cpp">
+      <Filter>LV_2_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_GameEngineImage.cpp">
+      <Filter>LV_0_OS</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_ResourcesManager.cpp">
+      <Filter>LV_0_OS</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_Renderer.cpp">
+      <Filter>LV_2_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_GameEngineInput.cpp">
+      <Filter>LV_0_OS</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_GameEngineCollision.cpp">
+      <Filter>LV_2_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_GameEngineCollision_CheckFunc.cpp">
+      <Filter>LV_2_Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

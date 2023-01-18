@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{44136ccb-6f28-4280-88dd-17a9b287eaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Level">
+      <UniqueIdentifier>{bfed1883-a2a1-48e4-bc3f-5b2615a4e55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\StartLevel">
+      <UniqueIdentifier>{702e99a3-0314-421e-b7d0-719f21aa14e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\EndLevel">
+      <UniqueIdentifier>{6b0003c1-6342-44eb-886e-7fabe5bab0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor\1-1">
+      <UniqueIdentifier>{1d03a041-db6c-4419-81f7-2d064f1d3558}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StartLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="EndLevel.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_one_one.cpp">
+      <Filter>Level</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>Actor\StartLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScreen.cpp">
+      <Filter>Actor\EndLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal_Kirby.cpp">
+      <Filter>Actor\1-1</Filter>
+    </ClCompile>
+    <ClCompile Include="One_One_Back.cpp">
+      <Filter>Actor\1-1</Filter>
+    </ClCompile>
+    <ClCompile Include="WeakMonster.cpp">
+      <Filter>Actor\1-1</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Actor\1-1</Filter>
+    </ClCompile>
+    <ClCompile Include="One_One_Far.cpp">
+      <Filter>Actor\1-1</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamMonster.cpp">
+      <Filter>Actor\1-1</Filter>
+    </ClCompile>
+    <ClCompile Include="CutterMonster.cpp">
+      <Filter>Actor\1-1</Filter>
+    </ClCompile>
+    <ClCompile Include="InGame_UI.cpp">
+      <Filter>Actor\1-1</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeBoss.cpp">
+      <Filter>Actor\1-1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StartLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="EndLevel.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_one_one.h">
+      <Filter>Level</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>Actor\StartLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScreen.h">
+      <Filter>Actor\EndLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal_Kirby.h">
+      <Filter>Actor\1-1</Filter>
+    </ClInclude>
+    <ClInclude Include="One_One_Back.h">
+      <Filter>Actor\1-1</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogicEnum.h" />
+    <ClInclude Include="WeakMonster.h">
+      <Filter>Actor\1-1</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Actor\1-1</Filter>
+    </ClInclude>
+    <ClInclude Include="One_One_Far.h">
+      <Filter>Actor\1-1</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamMonster.h">
+      <Filter>Actor\1-1</Filter>
+    </ClInclude>
+    <ClInclude Include="CutterMonster.h">
+      <Filter>Actor\1-1</Filter>
+    </ClInclude>
+    <ClInclude Include="InGame_UI.h">
+      <Filter>Actor\1-1</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeBoss.h">
+      <Filter>Actor\1-1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

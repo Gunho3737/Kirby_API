@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="GH_GameEngineString.h" />
+    <ClInclude Include="GH_GameEngineDebug.h" />
+    <ClInclude Include="GH_GameEngineMath.h" />
+    <ClInclude Include="GH_GameEngineTime.h" />
+    <ClInclude Include="GH_GameEngineNameBase.h" />
+    <ClInclude Include="GH_GameEngineDirectory.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_GameEnginePath.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_GameEngineObjectBase.h" />
+    <ClInclude Include="GH_GameEngineSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_GameEngineSoundFile.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GH_GameEngineSoundPlayer.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GH_GameEngineString.cpp" />
+    <ClCompile Include="GH_GameEngineDebug.cpp" />
+    <ClCompile Include="GH_GameEngineMath.cpp" />
+    <ClCompile Include="GH_GameEngineTime.cpp" />
+    <ClCompile Include="GH_GameEngineNameBase.cpp" />
+    <ClCompile Include="GH_GameEngineDirectory.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_GameEnginePath.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_GameEngineObjectBase.cpp" />
+    <ClCompile Include="GH_GameEngineSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_GameEngineSoundFile.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GH_GameEngineSoundPlayer.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="IO">
+      <UniqueIdentifier>{8d2b3a23-587f-468e-b0d1-48d8c1aa6903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{6b1ef297-9365-4947-8db8-9422bd7db9dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
